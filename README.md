@@ -1,21 +1,19 @@
-# Soroban Project
+# RecyclingTrackingApp
 
-## Project Structure
+## Project Description
+RecyclingTrackingApp is a decentralized application (dApp) built using Soroban smart contracts to help users track their recycling efforts. It logs and monitors the total amount of materials recycled by individual users and across the platform, promoting eco-friendly habits and accountability.
 
-This repository uses the recommended structure for a Soroban project:
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Project Vision
+The vision of RecyclingTrackingApp is to encourage environmentally responsible behavior by providing transparent, verifiable tracking of recycling activities on the blockchain. This solution empowers users to see their individual impact and promotes a collective movement toward sustainability.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## Key Features
+- 🔄 **Log Recycling Activity**: Users can record the type and amount of material they recycled.
+- 📊 **Track Global Progress**: Anyone can view the total recycled materials across the platform.
+- 👤 **Personal Stats**: Each user has their own history and totals tracked securely and transparently.
+- ⛓️ **Blockchain Transparency**: All data is immutable and stored on-chain for trustless verification.
+
+## Future Scope
+- 🏅 **Gamification and Rewards**: Incentivize users with tokens or badges for recycling milestones.
+- 📱 **Mobile App Integration**: Extend the dApp to Android/iOS for easier daily use.
+- 🏢 **Partner with Recycling Centers**: Verify real-world recycling events with QR codes or IoT.
+- 📦 **Material Categories**: Expand tracking to include paper, glass, e-waste, and more.
